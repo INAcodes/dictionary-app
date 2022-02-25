@@ -8,6 +8,7 @@ export default function App() {
       <main>
         <Dictionary />
       </main>
+      <hr />
       <footer className="text-center">
         Coded by{" "}
         <a href="https://github.com/INAcodes/dictionary-app">
