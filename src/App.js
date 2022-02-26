@@ -11,7 +11,7 @@ export default function App() {
       <hr />
       <footer className="text-center">
         This project was coded by {" "}
-        <a href="https://github.com/INAcodes/dictionary-app"
+        <a href="/"
            target="_blank"
            rel="noopener noreferrer">
           <em>INA HADAJ</em>

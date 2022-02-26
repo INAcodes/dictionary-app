@@ -1,5 +1,5 @@
 body {
-    background: rgb(239, 243, 245);
+    background: rgb(237, 250, 246);
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 .App-header {
     margin: 30px 0;
     text-align: center;
-    font-size: 26px;
+    font-size: 36px;
     font-family: italic;
 }
 

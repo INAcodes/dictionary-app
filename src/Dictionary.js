@@ -22,9 +22,9 @@ export default function Dictionary(props){
         axios.get(apiUrl).then(handleDictionResponse);
 
         let pexelsApiKey = `563492ad6f91700001000001488d96524af2431faf844059fae84c69`;
-        let pexelsApiUrl = `https://api.pexels.com/vi/search?query=${keyword}&per_page=9`;
+        let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
         let headers ={Authorization:`Bearer ${pexelsApiKey}`};
-        axios.get(pexelsApiUrl, {headers:headers}).then(handlePexelsResponse);
+        axios.get(pexelsApiUrl, { headers:headers}).then(handlePexelsResponse);
     }
 
     function handleDictionResponse(response){
