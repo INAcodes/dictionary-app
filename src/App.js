@@ -16,7 +16,12 @@ export default function App() {
            rel="noopener noreferrer">
           <em>INA HADAJ</em>
         </a>
-        open-sourced on GitHub 
+        {" "}and is {" "}<a href="https://github.com/INAcodes/dictionary-app"
+           target="_blank"
+           rel="noopener noreferrer">open-sourced on GitHub</a> {" "}and {" "}
+           <a href="https://sharp-swartz-07309e.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer">hosted on Netlify</a>
       </footer>
     </div>
   );
